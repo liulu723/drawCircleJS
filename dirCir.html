@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.circle1{
+				width:400px;
+				height:400px;
+				border:1px solid #000;
+			}
+			.circle2{
+				width:200px;
+				height:200px;
+				border:1px solid #000;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="circle circle1"></div>
+		<div class="circle circle2"></div>
+		<script type="text/javascript" src="drawCir.js">
+			
+		</script>
+		<script type="text/javascript">
+			new Circle(".circle1",{
+					maxX:78,
+					lineWidth:30,
+					fontSize:20,
+					fontColor:"#ffff00",
+					backgroundColor:"#0000ff",
+			});
+			new Circle(".circle2",{
+					maxX:50,
+					lineWidth:10,
+					fontSize:20,
+					startDeration:"top",
+					fontColor:"#00ff00",
+					backgroundColor:"#0000ff",
+			});
+		</script>
+	</body>
+</html>
